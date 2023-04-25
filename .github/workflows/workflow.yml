@@ -16,7 +16,7 @@ jobs:
 
               - uses: actions/checkout@v3
               - name: executando docker
-                run: docker run docker/whalesay cowsay TESTANDO ATV
+                run: docker run docker/whalesay cowsay TESTANDO ATV  MAIS UM UPDATE/FELIZ EM TER CONSEGUIDO :D
 
               - name: Run a multi-line script
                 run:
